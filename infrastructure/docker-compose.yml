@@ -1,0 +1,11 @@
+services:
+  frontend:
+    container_name: fsp.frontend
+    build:
+      context: ../
+      dockerfile: ./infrastructure/Dockerfile
+
+    ports:
+      - "8080:8080"
+
+    restart: unless-stopped
