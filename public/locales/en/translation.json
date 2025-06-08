@@ -1,5 +1,21 @@
 {
   "global.title": "VibeGo",
   "global.vibe": "Vibe",
-  "global.go": "Go"
+  "global.go": "Go",
+
+  "robot.thai": "I need pad-thai, beach and foot massage immediately. VibeGo, beam me up to «Thai zen» 🏖️🍜🐘",
+  "robot.egypt": "Call me Cleopatra, and I want to go to pyramids and camels! VibeGo, open me an ancient portal 🐪📜",
+  "robot.lazy": "I'm in lazy plaid mode. Give me vibe: «lie still and guilt-free» 🛋️🧸",
+  "robot.mountain": "I need to get to peaks now! Silence, pine trees, tea in thermos.. VibeGo, take me to heights ⛰️🍃",
+  "robot.dubai": "I am luxury and glitz. VibeGo, activate «Dubai mode» 💎🌴",
+  "robot.sea": "City noise — off. Mojito — on. VibeGo, pick me up place to chill and swim 🍸💦",
+  "robot.city": "Where's noise, lights and coffee on run? I need an urban vibe now! VibeGo, drop me in center of bustle and inspiration 🏙️☕🖤",
+
+  "home.title": "VIBE. PLANNING.",
+  "home.title.accent": "TRAVEL.",
+  "home.description.accent": "Go where your vibe takes you.",
+  "home.description": "Not sure where to travel? But you know how you feel? That’s enough. VibeGo is service that helps you discover places that match your mood, not just your budget or schedule.",
+
+  "chat.input.label": "Write something...",
+  "chat.first-message": "Hi there! I'm VibeGo. I help you plan trips according to your mood, interests and style. Just write down what you want and what your budget is and I'll do rest."
 }
