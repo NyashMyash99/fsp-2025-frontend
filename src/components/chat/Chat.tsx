@@ -1,4 +1,4 @@
-import { type JSX, useEffect, useState } from 'react';
+import { type JSX, useState } from 'react';
 import { Card, CardActions, CardContent, Icon } from '@mui/material';
 import { orUndefined } from '../../utils/helpers/сondition.helpers.js';
 import { ChatMessage } from './ChatMessage.js';
@@ -46,8 +46,9 @@ export function Chat({
   }
 
   async function sendMessage() {
-    if (!id || !text) return;
+    if (!text) return;
     if (!messages?.length) return onCreateConversation();
+    if (!id) return;
 
     const { isError, data } = await createMessage({ id, text });
     if (isError || !data) return;
@@ -55,11 +56,6 @@ export function Chat({
     setMessages(data.messages);
     setText('');
   }
-
-  useEffect(() => {
-    const container = document.getElementsByName('main')[0];
-    container?.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
-  }, [messages]);
 
   return (
     <Card
