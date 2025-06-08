@@ -1,0 +1,15 @@
+# Логи
+logs
+*.log
+*-debug.log*
+
+# Локальные файлы
+node_modules
+dist
+.env
+*.local
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
